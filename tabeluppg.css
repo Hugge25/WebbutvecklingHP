@@ -1,0 +1,13 @@
+table, tr, td{
+    border: 1px solid black;
+    width: 25%;
+}
+table{
+    border-spacing: 0px;
+}
+table{
+    text-align: center;
+}
+.koll{
+    text-align: left;
+}
