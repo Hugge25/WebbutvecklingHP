@@ -1,0 +1,36 @@
+table, tr, td{
+    border: 1px solid black;
+    width: 25%;
+}
+
+table{
+    border-spacing: 0px;
+}
+
+table{
+    width: 40%
+}
+
+table{
+    height: 500px;
+}
+
+.r1{
+    background-color: blue;
+}
+
+.c1{
+    background-color: red;
+}
+
+.c2{
+    background-color: green;
+}
+
+.r2{
+    background-color: black;
+}
+
+.m{
+    background-color: yellow;
+}
