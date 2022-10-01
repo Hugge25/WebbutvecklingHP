@@ -1,21 +1,64 @@
 body{
-    background-color: gray;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px auto 100px;
+    grid-gap:50px;
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer";
 }
-h1 {
-    font-size: 30 px;
-    font-family: Arial
 
+header{
+    grid-area: header;
 }
 
+main{
+    grid-area: main;
+    border-style: outset;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 120px
+}
+
+main{
+    padding-right:200px
+}
+
+aside{
+    grid-area: aside;
+    border-style: inset;
+    padding-right: 200px
+}
+aside{
+    padding-left: 200px
+}
+
+footer{
+    grid-area: footer;
+    text-align: center;
+    padding-top: 20px
+}
+
+h1{
+    font-size:  px;
+    font-family: times;
+    text-align: center;
+    padding-top: 20px
+}
+
+h2{
+    font-size: 20 px;
+    font-family: times;
+    text-align: center;
+}
 .program{
     text-align: center;
+    font-family: Times;
 }
 
 .tankar{
-    text-align: right;
-}
-
-.hugo{
-    border-style: solid;
+    text-align: center;
 }
